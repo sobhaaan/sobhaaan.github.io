@@ -1,0 +1,47 @@
+---
+---
+
+@import "minima";
+
+/* تنظیمات زبان فارسی و راست‌چین */
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+/* سربرگ سایت */
+.site-title {
+  float: right;
+}
+
+.site-nav {
+  float: left;
+}
+
+/* محتوای نوشته‌ها */
+.post-content,
+.post-title,
+.post-list,
+.page-content {
+  direction: rtl;
+  text-align: right;
+}
+
+/* تاریخ نوشته */
+.post-meta {
+  text-align: right;
+}
+
+/* پابرگ سایت */
+.footer-col-wrapper {
+  direction: rtl;
+}
+
+.footer-col {
+  float: right;
+}
