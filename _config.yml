@@ -1,0 +1,14 @@
+
+title: "دفتر یادداشت"
+description: "جایی برای نوشتن، یادگیری و ثبت ایده‌ها"
+lang: fa
+timezone: Asia/Tehran
+
+theme: minima
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
